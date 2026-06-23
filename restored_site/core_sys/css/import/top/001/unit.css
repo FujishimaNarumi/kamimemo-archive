@@ -1,0 +1,13 @@
+/* ==========共通指定========== */
+/* ==========header========== */
+@import url("../../../ptu/header_logo.css");
+/* ==========ext_area_01========== */
+/* ==========main========== */
+@import url("../../../nwu/nwu_001_t.css");
+@import url("../../../usa/usa_016.css");
+/* ==========side========== */
+@import url("../../../navi/g_navi_v.css");
+@import url("../../../bnu/bnu_001_t.css");
+/* ==========ext_area_02========== */
+/* ==========footer========== */
+@import url("../../../ptu/cw.css");

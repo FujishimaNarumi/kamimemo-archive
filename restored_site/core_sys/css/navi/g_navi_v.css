@@ -1,0 +1,379 @@
+/* グローバルナビユニット(縦)設定
+---------------------------------------------*/
+a.thi {
+color: #fff;
+}
+
+/* エリア指定 */
+#g_navi_v {
+width: 200px;
+margin: 0px auto 60px auto;
+padding: 0px;
+}
+
+/* リスト枠指定 */
+#g_navi_v ul {
+list-style: none;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+text-align: left;
+line-height: 100%;
+}
+
+/* リスト項目指定 */
+#g_navi_v li {
+margin: 0px;
+padding: 0px;
+}
+
+/* 第1階層表示指定
+---------------------------------------------*/
+/* リンク指定(通常) */
+#g_navi_v a.fir {
+height: 40px;
+display: block;
+margin: 0px 0px 10px 0px;
+padding: 0px;
+}
+#g_navi_v a.fir span,
+#g_navi_v a.fir_crt span {
+display: none;
+}
+#g_navi_v .gv_lino1 a.fir {
+background: url(../../images/side/gnavi/gl_bt_01.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino2 a.fir {
+background: url(../../images/side/gnavi/gl_bt_02.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino3 a.fir {
+background: url(../../images/side/gnavi/gl_bt_03.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino4 a.fir {
+background: url(../../images/side/gnavi/gl_bt_04.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino5 a.fir {
+background: url(../../images/side/gnavi/gl_bt_05.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino6 a.fir {
+background: url(../../images/side/gnavi/gl_bt_06.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino7 a.fir {
+background: url(../../images/side/gnavi/gl_bt_07.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino8 a.fir {
+background: url(../../images/side/gnavi/gl_bt_08.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino13 a.fir {
+background: url(../../images/side/gnavi/gl_bt_13.gif) left center no-repeat;
+}
+
+/* リンク指定(オンマウス時) */
+#g_navi_v .gv_lino1 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_01o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino2 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_02o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino3 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_03o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino4 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_04o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino5 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_05o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino6 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_06o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino7 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_07o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino8 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_08o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino13 a.fir:hover {
+background: url(../../images/side/gnavi/gl_bt_13o.gif) left center no-repeat;
+}
+
+/* リンク指定(現在位置表示・通常) */
+#g_navi_v a.fir_crt {
+height: 40px;
+display: block;
+margin: 0px 0px 10px 0px;
+padding: 0px;
+}
+#g_navi_v .gv_lino1 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_01a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino2 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_02a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino3 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_03a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino4 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_04a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino5 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_05a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino6 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_06a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino7 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_07a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino8 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_08a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino13 a.fir_crt {
+background: url(../../images/side/gnavi/gl_bt_13a.gif) left center no-repeat;
+}
+
+/* リンク指定(現在位置表示・オンマウス時) */
+#g_navi_v .gv_lino1 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_01ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino2 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_02ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino3 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_03ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino4 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_04ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino5 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_05ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino6 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_06ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino7 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_07ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino8 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_08ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino13 a.fir_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_13a.gif) left center no-repeat;
+}
+
+/* リンクなし時 */
+#g_navi_v li.fir_no_link {
+margin: 0px;
+padding: 10px 0px 10px 10px;
+text-decoration: none;
+border-bottom: 1px solid #aaa;
+background: #ddd;
+}
+
+/* 第2階層表示指定
+---------------------------------------------*/
+/* リンク指定(通常) */
+#g_navi_v a.sec {
+height: 24px;
+display: block;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+}
+#g_navi_v a.sec span,
+#g_navi_v a.sec_crt span {display: none;}
+#g_navi_v .gv_lino12 {margin-bottom: 10px;}
+
+#g_navi_v .gv_lino9 a.sec {
+background: url(../../images/side/gnavi/gl_bt_09.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino10 a.sec {
+background: url(../../images/side/gnavi/gl_bt_10.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino11 a.sec {
+background: url(../../images/side/gnavi/gl_bt_11.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino12 a.sec {
+margin-bottom: 10px;
+background: url(../../images/side/gnavi/gl_bt_12.gif) left center no-repeat;
+}
+
+/* リンク指定(オンマウス時) */
+#g_navi_v .gv_lino9 a.sec:hover {
+background: url(../../images/side/gnavi/gl_bt_09o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino10 a.sec:hover {
+background: url(../../images/side/gnavi/gl_bt_10o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino11 a.sec:hover {
+background: url(../../images/side/gnavi/gl_bt_11o.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino12 a.sec:hover {
+background: url(../../images/side/gnavi/gl_bt_12o.gif) left center no-repeat;
+}
+/* リンク指定(現在位置表示・通常) */
+#g_navi_v a.sec_crt {
+height: 24px;
+display: block;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+}
+#g_navi_v .gv_lino9 a.sec_crt {
+background: url(../../images/side/gnavi/gl_bt_09a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino10 a.sec_crt {
+background: url(../../images/side/gnavi/gl_bt_10a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino11 a.sec_crt {
+background: url(../../images/side/gnavi/gl_bt_11a.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino12 a.sec_crt {
+background: url(../../images/side/gnavi/gl_bt_12a.gif) left center no-repeat;
+}
+/* リンク指定(現在位置表示・オンマウス時) */
+#g_navi_v .gv_lino9 a.sec_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_09ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino10 a.sec_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_10ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino11 a.sec_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_11ao.gif) left center no-repeat;
+}
+#g_navi_v .gv_lino12 a.sec_crt:hover {
+background: url(../../images/side/gnavi/gl_bt_12ao.gif) left center no-repeat;
+}
+/* リンクなし時 */
+#g_navi_v li.sec_no_link {
+margin: 0px;
+padding: 10px 0px 10px 10px;
+text-decoration: none;
+border-bottom: 1px solid #aaa;
+background: #ddd;
+}
+
+
+
+/* 第3階層表示指定
+---------------------------------------------*/
+/* リンク指定(通常) */
+#g_navi_v a.thi {
+_height: 1px; /* IE6対応 */
+display: block;
+margin: 0px 0px 0px 30px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+background: url(../../images/side/mark_wh.gif) 5px center no-repeat no-repeat ;
+}
+
+/* リンク指定(オンマウス時) */
+#g_navi_v a.thi:hover {
+background: url(../../images/side/mark_or.gif) 5px center no-repeat;
+}
+
+/* リンク指定(現在位置表示・通常) */
+#g_navi_v a.thi_crt {
+_height: 1px; /* IE6対応 */
+display: block;
+margin: 0px 0px 0px 30px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+background: url(../../images/side/mark_wh.gif) 5px center no-repeat #eee;
+}
+
+/* リンク指定(現在位置表示・オンマウス時) */
+#g_navi_v a.thi_crt:hover {
+background: url(../../images/side/mark_or.gif) 5px center no-repeat #eee;
+}
+
+/* リンクなし時 */
+#g_navi_v li.thi_no_link {
+margin: 0px 0px 0px 20px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+}
+
+/* 第4階層表示指定
+---------------------------------------------*/
+/* リンク指定(通常) */
+#g_navi_v a.for {
+_height: 1px; /* IE6対応 */
+display: block;
+margin: 0px 0px 0px 30px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+background: url(../../images/side/mark01.gif) left center no-repeat ;
+}
+
+/* リンク指定(オンマウス時) */
+#g_navi_v a.for:hover {
+background: url(../../images/side/mark01.gif) 5px center no-repeat #eee;
+}
+
+/* リンク指定(現在位置表示・通常) */
+#g_navi_v a.for_crt {
+_height: 1px; /* IE6対応 */
+display: block;
+margin: 0px 0px 0px 30px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+background: url(../../images/side/mark01.gif) 5px center no-repeat #eee;
+}
+
+/* リンク指定(現在位置表示・オンマウス時) */
+#g_navi_v a.for_crt:hover {
+background: url(../../images/side/mark01.gif) 5px center no-repeat #eee;
+}
+
+/* リンクなし時 */
+#g_navi_v li.for_no_link {
+margin: 0px 0px 0px 30px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+background: url(../../images/side/mark01.gif) left center no-repeat ;
+}
+
+/* 第5階層表示指定
+---------------------------------------------*/
+/* リンク指定(通常) */
+#g_navi_v a.fif {
+_height: 1px; /* IE6対応 */
+display: block;
+margin: 0px 0px 0px 40px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+background: url(../../images/side/mark01.gif) left center no-repeat ;
+}
+
+/* リンク指定(オンマウス時) */
+#g_navi_v a.fif:hover {
+background: url(../../images/side/mark01.gif) left center no-repeat #eee;
+}
+
+/* リンク指定(現在位置表示・通常) */
+#g_navi_v a.fif_crt {
+_height: 1px; /* IE6対応 */
+display: block;
+margin: 0px 0px 0px 40px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+background: url(../../images/side/mark01.gif) left center no-repeat #eee;
+}
+
+/* リンク指定(現在位置表示・オンマウス時) */
+#g_navi_v a.fif_crt:hover {
+background: url(../../images/side/mark01.gif) 5px center no-repeat #eee;
+}
+
+/* リンクなし時 */
+#g_navi_v li.fif_no_link {
+margin: 0px 0px 0px 40px;
+padding: 5px 0px 5px 13px;
+text-decoration: none;
+border-bottom: 1px dotted #aaa;
+background: url(../../images/side/mark01.gif) left center no-repeat ;
+}

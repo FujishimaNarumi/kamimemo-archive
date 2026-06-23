@@ -1,0 +1,62 @@
+/* ユーザエリア009指定
+---------------------------------------------*/
+/* エリア指定 */
+#user_area_009 {
+width: 305px;
+margin: 0px 0px 30px 0px;
+padding: 0px;
+}
+
+.radio .radio_ttl {
+color: #ff3399;
+font-size: 16px;
+font-weight: bold;
+margin: 20px 0px 0px 22px;
+}
+.radio p {
+font-size: 12px;
+margin: 3px 0px 0px 22px;
+color: #272727;
+}
+.radio .bt {
+margin: 0px auto;
+width: 261px;
+overflow:hidden;
+}
+.radio .bt img {
+margin: 7px auto;
+float: left;
+overflow:hidden;
+}
+
+.backno {}
+.backno p{
+color: #ff3399;
+font-size: 16px;
+font-weight: bold;
+margin: 20px 0px 0px 22px;
+}
+.backno .bt {
+margin: 0px auto;
+width: 261px;
+}
+.backno .bt img {
+margin: 7px auto;
+float: left;
+}
+
+.backno2 {clear: both; margin: 0px auto 0px auto; width: 261px; overflow: hidden;}
+.backno2 p{
+color: #ff3399;
+font-size: 12px;
+font-weight: bold;
+margin: 5px 0px 0px 0px;
+}
+.backno2 li {
+float: left;
+margin: 0px 0px 0px 0px;
+}
+.backno2 li img {
+margin: 0px 18px 0px 0px;
+}
+.message {margin: 10px 0px 0px 22px;}

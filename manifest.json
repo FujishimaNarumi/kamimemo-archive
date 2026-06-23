@@ -1,0 +1,37 @@
+{
+  "project": "kamimemo_official_archive",
+  "title": "神様のメモ帳 公式サイト 完全アーカイブ",
+  "capture_date": "2026-06-23",
+  "last_updated": "2026-06-23",
+  "admin": "Fujishima Narumi",
+  "source_url": "https://wwws.warnerbros.co.jp/anime/kamimemo/",
+  "archive_tools": ["wget 1.25.0", "httrack 3.49.2"],
+  "page_count": 62,
+  "html_pages": 62,
+  "asset_count": 1950,
+  "image_count": 216,
+  "total_size_bytes": 20969340,
+  "total_size_human": "26.3 MB (uncompressed) / 9.5 MB (zst)",
+  "archive_format": "tar.zst (Zstandard)",
+  "sections": {
+    "top": 1,
+    "introduction": 1,
+    "character": 11,
+    "staffcast": 1,
+    "story": 13,
+    "goods": 1,
+    "cd": 1,
+    "book": 1,
+    "news": 32,
+    "webradio": 1
+  },
+  "verification": {
+    "sha256": "SHA256SUMS",
+    "offline_test": "reports/offline_test.md"
+  },
+  "deploy": {
+    "docker": "deploy/docker-compose.yml",
+    "port": 8080,
+    "image": "kamimemo-archive:latest"
+  }
+}

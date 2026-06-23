@@ -1,0 +1,34 @@
+#twitter {
+width: 200px;
+widthh: 200px;
+height: 379px;
+margin: 450px auto 0px auto;
+padding: 0px;
+text-align: left;
+}
+
+.twitter_body {
+overflow: hidden;
+_width: 200px;
+}
+
+.twtr-hd,.twtr-ft {
+display:none;
+}
+#twitter .flft,
+#twitter .frgt {
+padding: 0px 5px;
+margin: 7px 0px 0px 0px;
+}
+#twitter .flft {
+_width:64px;
+_height:15px;
+_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='core_sys/images/side/twitter_logo_s_ie6.png',sizingMethod='scale');
+}
+#twitter .flft img {
+_display: none;
+}
+
+.twtr-timeline {
+width: 199px;
+}

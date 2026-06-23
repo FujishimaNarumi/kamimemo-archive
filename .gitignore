@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker exported image (can be rebuilt)
+deploy/kamimemo-archive.tar.gz
+
+# HTTrack cache
+archive/raw_httrack/hts-cache/
+backblue.gif
+fade.gif

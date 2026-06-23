@@ -1,0 +1,19 @@
+/* ヘッダーロゴユニット(コンテンツ用)指定
+---------------------------------------------*/
+/* エリア指定 */
+#header_logo {
+height: 160px;
+margin: 0px;
+padding: 0px;
+}
+
+#header_logo logo {
+margin: 0px;
+padding: 0px;
+font-weight: normal;
+}
+
+#header_logo p {
+margin: 0px;
+padding: 0px;
+}

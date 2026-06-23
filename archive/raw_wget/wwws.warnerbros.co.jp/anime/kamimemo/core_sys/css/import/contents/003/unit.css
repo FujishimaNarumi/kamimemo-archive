@@ -1,0 +1,15 @@
+/* ==========共通指定========== */
+/* ==========header========== */
+@import url("../../../usa/usa_001.css");
+/* ==========ext_area_01========== */
+/* ==========main========== */
+@import url("../../../usa/usa_010.css");
+@import url("../../../usa/usa_008.css");
+@import url("../../../usa/usa_009.css");
+@import url("../../../usa/usa_015.css");
+/* ==========side========== */
+@import url("../../../navi/g_navi_v.css");
+@import url("../../../bnu/bnu_001_c.css");
+/* ==========ext_area_02========== */
+/* ==========footer========== */
+@import url("../../../ptu/cw.css");

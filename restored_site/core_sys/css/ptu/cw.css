@@ -1,0 +1,18 @@
+/* コピーライトユニット指定
+---------------------------------------------*/
+/* エリア指定 */
+#cw {
+width: 100%;
+height: 33px;
+margin: 0px;
+padding: 0px;
+text-align: center;
+background: url(../../images/footer/cw_bg.gif) center repeat-x;
+}
+
+#cw p {
+margin: 0px;
+padding: 5px;
+color: #000;
+font-size: 80%;
+}

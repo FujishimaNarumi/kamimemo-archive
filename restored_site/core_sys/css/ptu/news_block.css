@@ -1,0 +1,192 @@
+/* ニュースユニット指定 */
+
+/* 自動テーブル指定
+-------------------------------------------------- */
+/* タイプ.1 [すべて<td>／列単位指定／行背景色交互] */
+/* テーブル指定 */
+#news_block .ata01 {
+margin: 0px auto;
+border-collapse: collapse;
+}
+/* 奇数行背景色指定 */
+#news_block .ata01 .odd {
+backgroung: #fff;
+}
+/* 偶数行背景色指定 */
+.ata01 .even {
+background: #edf0f6;
+}
+/* セル一括指定 */
+#news_block .ata01 td {
+padding: 5px;
+vertical-align: ;
+border: 1px solid #aaa;
+}
+/* 1列目指定 */
+#news_block .ata01 .atd01 {
+width: ;
+}
+/* タイプ.2 [1行目のみ<th>／列単位指定／行背景色交互] */
+/* テーブル指定 */
+#news_block .ata02 {
+width: 99%;
+margin: 0px;
+border-collapse: collapse;
+}
+/* 奇数行背景色指定 */
+#news_block .ata02 .odd {
+backgroung: #fff;
+}
+/* 偶数行背景色指定 */
+#news_block .ata02 .even {
+background: #edf0f6;
+}
+/* 見出しセル一括指定 */
+#news_block .ata02 th {
+padding: 5px;
+text-align: center;
+border: 1px solid #aaa;
+background: #c1cce1;
+}
+/* セル一括指定 */
+#news_block .ata02 td {
+padding: 5px;
+vertical-align: ;
+border: 1px solid #aaa;
+}
+/* 1列目指定 */
+#news_block .ata02 .atd01 {
+width: ;
+}
+/* タイプ.3 [1列目のみ<th>／列単位指定／行背景色交互] */
+/* テーブル指定 */
+#news_block .ata03 {
+width: 99%;
+margin: 0px;
+border-collapse: collapse;
+}
+/* 奇数行背景色指定 */
+#news_block .ata03 .odd {
+backgroung: #edf0f6;
+}
+/* 偶数行背景色指定 */
+#news_block .ata03 .even {
+background: #fff;
+}
+/* 見出しセル一括指定 */
+#news_block .ata03 th {
+color: #fff;
+padding: 5px;
+border: 1px solid #aaa;
+background: #6a9bcd;
+text-align: left;
+}
+/* セル一括指定 */
+#news_block .ata03 td {
+padding: 5px;
+vertical-align: ;
+border: 1px solid #aaa;
+background: #fff;
+}
+/* 1列目指定 */
+#news_block .ata03 .atd01 {
+width: ;
+}
+
+/* 複数ページナビ指定
+---------------------------------------------*/
+/* リスト指定 */
+#news_block ul.page_nb {
+list-style: none;
+margin: 0px;
+padding: 3px 0px 5px 0px;
+text-align: center;
+border-top: 1px dotted #aaa;
+border-bottom: 1px dotted #aaa;
+}
+
+#news_block li.page_nb {
+display: inline;
+margin: 0px;
+padding: 0px;
+text-align: center;
+}
+
+#news_block li.page_nb_b {
+display: inline;
+margin: 0px;
+padding: 0px 10px 0px 0px;
+text-align: center;
+}
+
+#news_block li.page_nb_n {
+display: inline;
+margin: 0px;
+padding: 0px 0px 0px 10px;
+text-align: center;
+}
+
+#news_block .page_nb_fc {
+margin: 0px;
+padding: 0px;
+color: D60000;
+font-weight: bold;
+}
+
+/* 関連リンク指定
+---------------------------------------------*/
+/* リスト指定 */
+#news_block ul.k_link {
+margin: 10px 0px 0px 0px;
+padding: 0px;
+list-style: none;
+}
+
+#news_block li.k_link {
+margin: 0px;
+padding: 5px 0px 5px 13px;
+border-bottom: 1px dotted #aaa;
+background: URL(../../images/sys/ar01_gr01.gif) left center no-repeat;
+}
+
+/* プルダウンリスト指定
+---------------------------------------------*/
+/* リスト指定 */
+#news_block .news_pull {
+min-height: 1em;
+_height: 1px;
+_overflow: visible;
+margin: 0px 0px 10px 0px;
+padding: 0px 0px 2px 0px;
+border-bottom: 1px solid #aaa;
+}
+#news_block .news_pull:after {
+content: "";
+display: block;
+clear: both;
+height: 0px;
+overflow: hidden;
+}
+
+#news_block .news_pull .news_pull_ti {
+float: left;
+margin: 0px;
+padding: 5px;
+font-weight: bold;
+}
+#news_block .news_pull span.news_pull_ti_in {
+}
+
+#news_block .news_pull .news_pull_form {
+float: left;
+margin: 0px;
+padding: 5px;
+}
+
+#news_block .news_pull .backnum_link {
+float: right;
+margin: 0px;
+padding: 5px;
+}
+#news_block .news_pull span.backnum_link_in {
+}

@@ -1,0 +1,12 @@
+/* ユーザエリア008指定
+---------------------------------------------*/
+/* エリア指定 */
+#user_area_008 {
+margin: 0px;
+padding: 0px;
+}
+
+#user_area_008 .navigator {
+margin: 0px;
+padding: 0px;
+}

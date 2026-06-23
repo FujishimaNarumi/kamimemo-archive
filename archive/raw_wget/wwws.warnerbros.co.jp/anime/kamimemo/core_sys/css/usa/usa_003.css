@@ -1,0 +1,12 @@
+/* ユーザエリア003指定
+---------------------------------------------*/
+/* エリア指定 */
+#user_area_003 {
+margin: 0px 0px 4px 0px;
+padding: 0px;
+}
+
+#user_area_003 .page_ttl {
+margin: 0px;
+padding: 0px;
+}

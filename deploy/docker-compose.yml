@@ -1,0 +1,10 @@
+services:
+  kamimemo:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    image: kamimemo-archive:latest
+    container_name: kamimemo
+    ports:
+      - "8080:80"
+    restart: unless-stopped

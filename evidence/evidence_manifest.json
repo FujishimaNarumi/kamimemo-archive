@@ -1,0 +1,16 @@
+{
+  "project": "kamimemo_official_archive",
+  "note": "スクリーンショットは GUI 環境で手動取得してください。\n使い方: open http://localhost:8080/PATH してから screencapture で取得。",
+  "pages": [
+    {"name": "homepage", "path": "index.html"},
+    {"name": "news_list", "path": "news/hp0001/list00020000.html"},
+    {"name": "character", "path": "contents/hp0004/index00080000.html"},
+    {"name": "story_list", "path": "contents/hp0006/list00000000.html"},
+    {"name": "goods", "path": "contents/hp0009/index00010000.html"},
+    {"name": "webradio", "path": "radio/index.html"},
+    {"name": "introduction", "path": "contents/hp0003/index00060000.html"},
+    {"name": "staffcast", "path": "contents/hp0005/index00070000.html"}
+  ],
+  "capture_command": "open -a Safari http://localhost:8080/PATH && screencapture -W evidence/NAME.png",
+  "status": "manual capture required"
+}

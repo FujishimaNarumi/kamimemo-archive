@@ -1,0 +1,336 @@
+/* ニュースユニットT01指定
+---------------------------------------------*/
+/* 枠指定 */
+#nwu_001_t {
+width: 479px;
+clear: both;
+margin: 450px 0px 0px 20px;
+padding: 0px;
+}
+
+/* ユニットタイトル指定
+---------------------------------------------*/
+/* 枠・背景 指定 */
+#nwu_001_t .ti_b {
+width: 479px;
+height: 29px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+background: url(../../images/main/nwu01_bg.gif) top no-repeat;
+}
+
+/* 左要素 */
+#nwu_001_t .ti_l {
+float: left;
+margin: 0px;http://warner.coreblo.com/coreblo/common/images/sys/main_bt/pres_bt.gif
+padding: 3px 0px 0px 5px;
+text-align: left;
+display: none;
+}
+
+/* 右要素 */
+#nwu_001_t .ti_r {
+float: right;
+margin: 5px 5px 0px 0px;
+padding: 0px 0px 0px 15px;
+text-align: right;
+background: url(https://wwws.warnerbros.co.jp/anime/common/images/sys/ar02_gl01.gif) left center no-repeat;
+color:#fff;
+}
+#nwu_001_t .ti_r a {color:#fff;}
+
+/* タイトル指定 */
+#nwu_001_t h2 {
+margin: 0px;
+padding: 0px 0px 0px 15px;
+font-size: 120%;
+background: url(https://wwws.warnerbros.co.jp/anime/kamimemo/core_sys/images/main/con_h2_ti_ico_b.gif) left center no-repeat;
+}
+
+/* 新着アイコン指定
+---------------------------------------------*/
+#nwu_001_t .new_ic {
+padding: 0px 0px 0px 30px;
+background: URL(../../images/sys/new_ic01.gif) left 2px no-repeat;
+}
+
+/* リスト内部要素指定
+---------------------------------------------*/
+/* サムネイル指定 */
+#nwu_001_t .ph_img {
+margin: 0px;
+padding: 0px;
+}
+
+/* タイトル指定 */
+#nwu_001_t .title {
+margin: 0px;
+font-weight: normal;
+width: 99%;
+}
+
+/* 本文指定 */
+#nwu_001_t .read {
+margin: 5px 0px 0px 0px;
+padding: 0px;
+}
+
+/* 日付指定 */
+#nwu_001_t .day {
+margin: 0px;
+padding: 0px;
+}
+
+/* リストパターン01～02 05選択時指定
+---------------------------------------------*/
+/* テーブル基本枠指定 */
+#nwu_001_t table {
+clear: both;
+width: 479px;
+margin: 0px auto;
+padding: 0px;
+border-collapse: collapse;
+font-size: 100%;
+line-height: 150%;
+border: 1px solid #3c96bd;
+background: #fff;
+overflow:scroll;
+}
+
+/* 行背景色指定
+行背景色を交互にする際に利用しま。 */
+#nwu_001_t tr.bg_a {
+}
+
+#nwu_001_t tr.bg_b {
+}
+
+/* テーブル箇所指定 */
+#nwu_001_t td {
+margin: 0px;
+padding: 5px;
+text-align: left;
+vertical-align: top;
+border-bottom: 1px dotted #ccc;
+border-right: 1px dotted #ccc;
+}
+
+/* サムネイル画像セル指定 */
+#nwu_001_t td.ph_img {
+width: 100px;
+margin: 0px;
+padding: 10px;
+}
+
+/* 日付セル指定 */
+#nwu_001_t td.day {
+width: 70px;
+margin: 0px;
+padding: 5px 0px 5px 7px;
+font-size: 12px;
+}
+
+/* リストパターン03選択時指定
+---------------------------------------------*/
+/* リスト指定 */
+#nwu_001_t dl {
+margin: 0px auto;
+padding: 0px;
+text-align: left;
+}
+
+#nwu_001_t dt {
+margin: 0px auto;
+padding: 0px 0px 0px 5px;
+font-weight: bold;
+}
+
+#nwu_001_t dd {
+margin: 0px 0px 5px 0px;
+padding: 0px 0px 5px 5px;
+border-bottom: 1px dotted #bbb;
+}
+
+/* エリア背景色指定
+行背景色を交互にする際に利用します */
+#nwu_001_t dt.bg_a {
+}
+
+#nwu_001_t dd.bg_a {
+}
+
+#nwu_001_t dt.bg_b {
+}
+
+#nwu_001_t dd.bg_b {
+}
+
+/* リストパターン04選択時指定
+---------------------------------------------*/
+/* テーブル基本枠指定 */
+#nwu_001_t table.pt5 {
+clear: both;
+width: 100%;
+margin: 0px auto;
+padding: 0px;
+border-collapse: separate;
+font-size: 100%;
+line-height: 150%;
+}
+
+/* セル指定 */
+#nwu_001_t table.pt5 td {
+margin: 0px;
+padding: 5px;
+text-align: left;
+}
+
+/* 画像指定 */
+#nwu_001_t table.pt5 .ph {
+float: left;
+margin: 0px 10px 0px 0px;
+}
+
+/* 新着アイコン指定 */
+#nwu_001_t table.pt5 .new_ic {
+padding: 0px 0px 0px 25px;
+background: URL(https://wwws.warnerbros.co.jp/anime/common/images/sys/new_ic01.gif) left 2px no-repeat;
+}
+#nwu_001_t table.pt5 .new_ic a{
+width: 100%;
+}
+
+/* リストパターン05選択時指定
+---------------------------------------------*/
+#nwu_001_t div.list_05_in {
+clear: both;
+margin: 0px auto;
+padding: 0px;
+}
+
+#nwu_001_t div.list_05_in p {
+margin: 0px;
+padding: 0px;
+}
+
+/* リストテーブル基本枠指定 */
+#nwu_001_t div.list_05_in table {
+width: 100%;
+margin: 0px auto;
+padding: 0px;
+border-collapse: collapse;
+}
+
+/* セル指定 */
+#nwu_001_t td.out_base {
+margin: 0px;
+padding: 0px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #fff;
+}
+
+#nwu_001_t div.list_05_in table {
+width: 100%;
+margin: 0px auto;
+padding: 0px;
+border-collapse: collapse;
+}
+
+#nwu_001_t div.list_05_in td {
+margin: 0px;
+padding: 10px;
+text-align: left;
+vertical-align: top;
+}
+
+#nwu_001_t div.list_05_in td.in_title {
+margin: 0px;
+padding: 5px 0px 0px 10px;
+}
+
+/* サムネイル指定（幅指定あり） */
+#nwu_001_t div.list_05_in td.ph {
+margin: 0px;
+padding: 5px;
+text-align: left;
+}
+
+/* タイトル指定 */
+#list_05 div.list_05_in .title {
+margin: 0px;
+padding: 0px;
+font-weight: bold;
+}
+
+/* 本文セル指定 */
+#nwu_001_t div.list_05_in td.read {
+width: 100%;
+margin: 0px;
+padding: 5px;
+text-align: left;
+}
+
+/* 日付セル指定 */
+#nwu_001_t div.list_05_in td.day {
+width: auto;
+margin: 0px;
+padding: 10px 10px 10px 0px;
+text-align: left;
+background: #000;
+}
+
+/* リストパターン06選択時指定
+---------------------------------------------*/
+#nwu_001_t .nwu_box {
+float: left;
+width: 170px;
+margin: 5px 5px 10px 5px;
+padding: 5px;
+text-align: left;
+background: #fff;
+border: 1px solid #bbb;
+}
+
+/* タイトル指定 */
+#nwu_001_t .nwu_box p.title {
+margin: 10px 0px 0px 0px;
+text-align: left;
+}
+
+/* 幅指定(パーセント)
+---------------------------------------------*/
+#nwu_001_t .l_wdp01 {
+	width: 100%;
+	}
+#nwu_001_t .l_wdp02 {
+	width: 50%;
+	}
+#nwu_001_t .l_wdp03 {
+	width: 33%;
+	}
+#nwu_001_t .l_wdp04 {
+	width: 25%;
+	}
+#nwu_001_t .l_wdp05 {
+	width: 20%;
+	}
+#nwu_001_t .l_wdp06 {
+	width: 16%;
+	}
+#nwu_001_t .l_wdp07 {
+	width: 14%;
+	}
+#nwu_001_t .l_wdp08 {
+	width: 12%;
+	}
+#nwu_001_t .l_wdp09 {
+	width: 11%;
+	}
+#nwu_001_t .l_wdp010 {
+	width: 10%;
+	}
+#nwu_001_t .l_wdp011 {
+	width: 5%;
+	}

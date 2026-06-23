@@ -1,0 +1,20 @@
+/* バナーユニットC01指定
+---------------------------------------------*/
+/* エリア指定 */
+#bnu_001_c {
+margin: 0px 0px 10px 0px;
+padding: 0px;
+}
+
+/* バナー間隔 */
+#bnu_001_c p {
+margin: 0px 0px 5px 0px;
+padding: 0px;
+}
+
+/* キャプション */
+#bnu_001_c span.bn_cap {
+display: block;
+margin: 0px auto;
+padding: 10px 0px;
+}

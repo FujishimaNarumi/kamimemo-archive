@@ -1,0 +1,21 @@
+/* ユーザエリア015指定
+---------------------------------------------*/
+/* エリア指定 */
+#user_area_015 {
+margin: 0px;
+padding: 0px;
+}
+.radio_corner {
+padding: 10px 0px 0px 0px;
+overflow: hidden;
+_zoom: 1;
+background: url(../../images/main/contents/radio/radio_corner_bg.gif) top no-repeat; 
+text-align: left;
+}
+.radio_corner p{
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 0px;
+font-size: 11px;
+text-align:center;
+}

@@ -1,0 +1,304 @@
+/* ユーザー定義CSS
+---------------------------------------------*/
+html {overflow: scroll;}
+html #wrapper{font-size:100%;}
+#cms_block h5 {color: #52bfd3; margin: 1em 0px 0px 0px;}
+
+/* ストーリー指定 */
+#st_nav li.stno_01,
+#st_nav li.stno_02,
+#st_nav li.stno_03,
+#st_nav li.stno_04,
+#st_nav li.stno_05,
+#st_nav li.stno_06,
+#st_nav li.stno_07,
+#st_nav li.stno_08,
+#st_nav li.stno_09,
+#st_nav li.stno_10,
+#st_nav li.stno_11,
+#st_nav li.stno_12 {
+display: none;
+}
+#cms_block #ctno6 #list_05 {
+margin: 0px auto;
+}
+#cms_block #ctno6 #list_05 td {
+padding: 1px 0px;
+border: none;
+}
+#cms_block #ctno6 #list_05 img {
+border: none;
+}
+#cms_block #ctno6 #list_05 a:hover img {
+filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6;
+}
+#cms_block #ctno6 .block {
+width: 552px;
+margin: 0px auto;
+padding: 0px 30px;
+}
+#cms_block #ctno6 .line_00 {
+display: none;
+}
+#cms_block #ctno6 .line_01 {
+position: relative;
+height: 127px;
+font-size: 10px;
+background: url(../../images/main/contents/story/st_bgt.gif) left top repeat-x;
+}
+#cms_block #ctno6 .line_01 h3 {
+position: absolute;
+top: 50px;
+left: 130px;
+font-size: 16px;
+}
+#cms_block #ctno6 .line_01 .read {
+position: absolute;
+top: 100px;
+right: 30px;
+}
+#cms_block #ctno6 .line_01 .block_inner {
+padding: 40px 0px 0px 0px;
+}
+#cms_block #ctno6 .line_02 {
+height: 219px;
+background: url(../../images/main/contents/story/st_bgm.gif) left top repeat-x;
+}
+#cms_block #ctno6 .line_03 {
+height: 178px;
+background: url(../../images/main/contents/story/st_bgb.gif) left top repeat-x;
+}
+
+#cms_block #st_nav {
+width: 550px;
+margin: 10px auto;
+}
+#st_nav li {
+float: left;
+margin: 0px 10px 10px 0px;
+}
+#st_nav li a {
+padding: 0px 0px 0px 10px;
+background: url(../../images/sys/ar01_bl01.gif) left center no-repeat;
+}
+.page_9 #st_nav li.stno_01,
+.page_10 #st_nav li.stno_02,
+.page_11 #st_nav li.stno_03,
+.page_12 #st_nav li.stno_04,
+.page_13 #st_nav li.stno_05,
+.page_14 #st_nav li.stno_06,
+.page_15 #st_nav li.stno_07,
+.page_16 #st_nav li.stno_08,
+.page_17 #st_nav li.stno_09,
+.page_18 #st_nav li.stno_10,
+.page_19 #st_nav li.stno_11,
+.page_20 #st_nav li.stno_12 {
+background: #4d9de5;
+}
+.page_9 #st_nav li.stno_01 a,
+.page_10 #st_nav li.stno_02 a,
+.page_11 #st_nav li.stno_03 a,
+.page_12 #st_nav li.stno_04 a,
+.page_13 #st_nav li.stno_05 a,
+.page_14 #st_nav li.stno_06 a,
+.page_15 #st_nav li.stno_07 a,
+.page_16 #st_nav li.stno_08 a,
+.page_17 #st_nav li.stno_09 a,
+.page_18 #st_nav li.stno_10 a,
+.page_19 #st_nav li.stno_11 a,
+.page_20 #st_nav li.stno_12 a {
+padding: 0px 3px 0px 10px;
+color: #fff;
+text-decoration: none;
+background: url(../../images/sys/ar01_wh01.gif) 3px center no-repeat;
+}
+
+/* タイトル指定 */
+/* 大見出し青(h2) */
+.ti_b_h2 {
+margin: 0px 0px 10px 0px;
+padding: 7px 0px;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_bg_b.gif) left bottom repeat-x;
+}
+h2.h2_b {
+margin: 0px;
+padding: 5px 0px 5px 22px;
+font-size: 120%;
+color: #666;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_ico_b.gif) 10px center no-repeat;
+}
+
+/* 大見出し赤(h2) */
+.ti_r_h2 {
+margin: 0px 0px 10px 0px;
+padding: 7px 0px;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_bg_r.gif) left bottom repeat-x;
+}
+h2.h2_r {
+margin: 0px;
+padding: 5px 0px 5px 22px;
+font-size: 120%;
+color: #666;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_ico_r.gif) 10px center no-repeat;
+}
+
+/* 大見出し緑(h2) */
+.ti_g_h2 {
+margin: 0px 0px 10px 0px;
+padding: 7px 0px;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_bg_g.gif) left bottom repeat-x;
+}
+h2.h2_g {
+margin: 0px;
+padding: 5px 0px 5px 22px;
+font-size: 120%;
+color: #666;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_ico_g.gif) 10px center no-repeat;
+}
+
+/* 大見出し黄(h2) */
+.ti_o_h2 {
+margin: 0px 0px 10px 0px;
+padding: 7px 0px;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_bg_o.gif) left bottom repeat-x;
+}
+h2.h2_o {
+margin: 0px;
+padding: 5px 0px 5px 22px;
+font-size: 120%;
+color: #666;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_ico_o.gif) 10px center no-repeat;
+}
+
+/* 大見出し黒(h2) */
+.ti_bk_h2 {
+margin: 0px 0px 10px 0px;
+padding: 7px 0px;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_bg_bk.gif) left bottom repeat-x;
+}
+h2.h2_bk {
+margin: 0px;
+padding: 5px 0px 5px 22px;
+font-size: 120%;
+color: #666;
+background: url(https://wwws.warnerbros.co.jp../core_sys/images/main/con_h2_ti_ico_bk.gif) 10px center no-repeat;
+}
+
+/* 中見出し青(h3) */
+h3.ti_b_h3 {
+width: 100%;
+margin: 0px;
+padding: 17px 0px 35px 0px;
+font-size: 16px;
+color: #026099;
+background: url(../../images/main/con_h3_ti_b.gif) 0px center no-repeat;
+}
+
+/* 中見出し赤(h3) */
+h3.ti_r_h3 {
+margin: 10px 0px;
+padding: 4px 0px 4px 10px;
+color: #FFFFFF;
+background: #b70d0d;
+}
+
+/* 中見出し緑(h3) */
+h3.ti_g_h3 {
+margin: 10px 0px;
+padding: 4px 0px 4px 10px;
+color: #FFFFFF;
+background: #129970;
+}
+
+/* 中見出し黄(h3) */
+h3.ti_o_h3 {
+margin: 10px 0px;
+padding: 4px 0px 4px 10px;
+color: #FFFFFF;
+background: #e48b00;
+}
+
+/* 中見出し黒(h3) */
+h3.ti_bk_h3 {
+margin: 10px 0px;
+padding: 4px 0px 4px 10px;
+color: #FFFFFF;
+background: #525252;
+}
+
+/*Goodsページ用*/
+h3.ti_cd {
+height: 94px;
+margin: 0px;
+background: url(../../images/others/goods/cd_ttl_bg.gif) 0px top no-repeat;
+}
+h3.ti_cd .catch{
+margin: 0px;
+padding: 50px 20px 0px 70px;
+font-size: 13px;
+font-weight: bold;
+color: #fff;
+}
+
+/* 小見出し青(h4) */
+h4.ti_b_h4 {
+margin: 10px 0px;
+padding: 5px 0px 5px 4px;
+color: #0b68b1;
+border-bottom: 3px solid #0b68b1;
+}
+/* 小見出し赤(h4) */
+h4.ti_r_h4 {
+margin: 10px 0px;
+padding: 5px 0px 5px 4px;
+color: #666;
+border-bottom: 3px solid #b70d0d;
+}
+/* 小見出し緑(h4) */
+h4.ti_g_h4 {
+margin: 10px 0px;
+padding: 5px 0px 5px 4px;
+color: #666;
+border-bottom: 3px solid #129970;
+}
+/* 小見出し黄(h4) */
+h4.ti_o_h4 {
+margin: 10px 0px;
+padding: 5px 0px 5px 4px;
+color: #666;
+border-bottom: 3px solid #e48b00;
+}
+/* 小見出し黒(h4) */
+h4.ti_bk_h4 {
+margin: 10px 0px;
+padding: 5px 0px 5px 4px;
+color: #666;
+border-bottom: 3px solid #525252;
+}
+
+p.h_no {
+margin: 0px;
+padding: 0px;
+}
+
+/* ニュース種別アイコン */
+#nwu_001_t .title .nctl,
+#news_block .title .nctl {
+padding: 0px 0px 0px 65px;
+}
+#nwu_001_t .title .nctl span,
+#news_block .title .nctl span {
+display: none;
+}
+.news_ic {background: url(../../images/sys/news/news_ic.gif) left 3px no-repeat;}
+.oa_ic {background: url(../../images/sys/news/onair_ic.gif) left 3px no-repeat; }
+.st_ic {background: url(../../images/sys/news/story_ic.gif) left 3px no-repeat; }
+.goods_ic {background: url(../../images/sys/news/goods_ic.gif) left 3px no-repeat; }
+.sp_ic {background: url(../../images/sys/news/sp_ic.gif) left 3px no-repeat; }
+
+/* 半透明処理 */
+.img_alpha a:hover{
+filter:alpha(opacity=80);
+-moz-opacity:.8;
+opacity:.8;
+}
